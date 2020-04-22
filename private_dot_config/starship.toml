@@ -1,0 +1,7 @@
+[character]
+disabled = false
+use_symbol_for_status = false
+
+[kubernetes]
+disabled = false
+symbol = "☸️  "

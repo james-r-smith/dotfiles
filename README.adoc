@@ -1,0 +1,23 @@
+= James Smith's Dotfiles
+:toc:
+
+== Overview
+
+This repository consists of my personal dotfiles.
+
+== Details
+
+[options="header"]
+|===
+|Category |Name
+
+|Dotfile Manager |link:https://www.chezmoi.io[Chezmoi]
+|Shell |link:https://fishshell.com[Fish]
+|Prompt |link:https://starship.rs[Starship]
+|===
+
+== License
+
+[%hardbreaks]
+Copyright (C) 2020-present.
+This project is link:./LICENSE[ISC] licensed.
