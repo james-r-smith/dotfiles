@@ -13,6 +13,7 @@ This repository consists of my personal dotfiles.
 
 |Dotfile Manager |link:https://www.chezmoi.io[Chezmoi]
 |Shell |link:https://fishshell.com[Fish]
+|Terminal |link:https://github.com/alacritty/alacritty[Alacritty]
 |Prompt |link:https://starship.rs[Starship]
 |===
 
