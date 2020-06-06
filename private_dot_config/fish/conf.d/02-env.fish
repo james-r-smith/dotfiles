@@ -13,9 +13,6 @@ set -gx CARGO_HOME $XDG_DATA_HOME/cargo
 # npm config
 set -gx NPM_CONFIG_USERCONFIG $XDG_CONFIG_HOME/npm/npmrc
 
-# vim config
-set -gx VIMINIT 'let $MYVIMRC="$HOME/.config/vim/vimrc" | source $MYVIMRC'
-
 # docker config
 set -gx DOCKER_CONFIG $XDG_CONFIG_HOME/docker
 
