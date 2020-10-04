@@ -24,6 +24,7 @@ set -gx KUBECONFIG $XDG_CONFIG_HOME/kube/config
 
 # path config
 set -gx PATH "$HOME/.local/bin:\
+$XDG_DATA_HOME/npm/bin:\
 $FNM_DIR/current/bin:\
 $CARGO_HOME/bin:\
 $GOPATH/bin:\
