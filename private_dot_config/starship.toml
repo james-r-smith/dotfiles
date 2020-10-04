@@ -1,22 +1,22 @@
 add_newline = true
-prompt_order=[
-  "username",
-  "hostname",
-  "kubernetes",
-  "directory",
-  "git_branch",
-  "git_commit",
-  "git_state",
-  "git_status",
-  "docker_context",
-  "package",
-  "env_var",
-  "cmd_duration",
-  "custom",
-  "line_break",
-  "jobs",
-  "character",
-]
+format="""\
+  $username\
+  $hostname\
+  $kubernetes\
+  $directory\
+  $git_branch\
+  $git_commit\
+  $git_state\
+  $git_status\
+  $docker_context\
+  $package\
+  $env_var\
+  $cmd_duration\
+  $custom\
+  $line_break\
+  $jobs\
+  $character\
+  """
 
 [username]
 disabled = false
@@ -28,8 +28,8 @@ ssh_only = false
 
 [character]
 disabled = false
-symbol = "$"
-use_symbol_for_status = false
+success_symbol = "[\\$](bold green)"
+error_symbol = "[\\$](bold red)"
 
 [directory]
 disabled = false
