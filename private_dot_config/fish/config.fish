@@ -14,5 +14,8 @@
 #                       (JJJ| \UUU)
 #                        (UU)
 
+# initialize fnm
+fnm env --shell fish | source
+
 # initialize starship prompt
 starship init fish | source
