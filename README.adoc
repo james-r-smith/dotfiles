@@ -1,4 +1,4 @@
-= James Smith's Dotfiles
+= James Chen-Smith's Dotfiles
 :toc:
 
 == Overview
