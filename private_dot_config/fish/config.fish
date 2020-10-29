@@ -13,6 +13,8 @@
 #                       /J\JT\JJJJ)
 #                       (JJJ| \UUU)
 #                        (UU)
+#
+# Documentation: https://fishshell.com/docs/current/index.html
 
 # initialize fnm
 fnm env --shell fish | source

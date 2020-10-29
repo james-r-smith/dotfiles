@@ -1,3 +1,5 @@
+# Documentation: https://www.chezmoi.io/docs/reference/#chezmoiignore
+
 .editorconfig
 README*
 LICENSE*

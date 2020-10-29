@@ -1,3 +1,5 @@
+# Documentation: https://starship.rs/config
+
 add_newline = true
 format="""\
   $username\
