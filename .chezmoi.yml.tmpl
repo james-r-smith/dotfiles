@@ -1,0 +1,9 @@
+{{ $name := promptString "What is your name" -}}
+{{ $email := promptString "What is your email address" -}}
+{{ $signing_key := promptString "What is your signing key (leave empty if none)" -}}
+# Documentation: https://www.chezmoi.io/docs/reference/#configuration-file
+
+data:
+  name: {{ $name }}
+  email: {{ $email }}
+  signing_key: {{ $signing_key }}

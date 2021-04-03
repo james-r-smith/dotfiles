@@ -1,4 +1,0 @@
-# Documentation: https://git-scm.com/docs/git-config#_configuration_file
-
-[pull]
-	ff = only
